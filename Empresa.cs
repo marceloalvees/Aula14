@@ -2,24 +2,24 @@
 {
     class Empresa: Administracao
     {
-        void Cadastrar()
+        override public void Cadastrar()
         {
-
+            Console.WriteLine("");
         }
 
-        void Remover()
+        override public void Remover()
         {
-
+            Console.WriteLine("");
         }
 
-        void Atualizar()
+        override public void Atualizar()
         {
-
+            Console.WriteLine("");
         }
 
-        void ApresentarTodos()
+        override public void ApresentarTodos()
         {
-
+            Console.WriteLine("");
         }
     }
 }

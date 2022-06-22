@@ -2,9 +2,9 @@
 {
     public class Aluno
     {
-        int Matricula;
-        string Nome;
-        string Sobrenome;
+        public int Matricula;
+        public string Nome;
+        public string Sobrenome;
         string Telefone;
         int[] Notas;
 
