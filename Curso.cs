@@ -38,13 +38,14 @@
                 Console.WriteLine("Sobrenom atualizado: ");
                 string sobrenomeAtualizado = Console.ReadLine();
                 Console.WriteLine("Telefone atualizado: ");
-                string nomeAtualizado = Console.ReadLine();
-                for (int i = 0; i < Alunos[matricula].Notas.Length; i++)
+                string telefoneAtualizado = Console.ReadLine();
+                int[] notasAtualizadas = new int[4];
+                for (int i = 0; i < notasAtualizadas.Length; i++)
                 {
                     Console.WriteLine($"Nota{i+1} atualizada: ");
-                    Alunos[matricula].Notas[i] = Console.ReadLine();
+                    notasAtualizadas[i] = int.Parse(Console.ReadLine());
                 }
-                Alunos[matricula].Atualizar(nomeAtualizado);
+                Alunos[matricula].Atualizar(nomeAtualizado, sobrenomeAtualizado,telefoneAtualizado, notasAtualizadas);
             }
             
 
