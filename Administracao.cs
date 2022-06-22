@@ -1,25 +1,24 @@
 ﻿namespace Aula13_Atividade
 {
-    class Administracao
+    
+    public abstract class Administracao
     {
-        public void Cadastrar()
+
+        public abstract void Cadastrar();
+
+        public abstract void Remover();
+
+        public virtual void Atualizar()
         {
 
         }
-
-        void Remover()
+        public virtual void ApresentarTodos()
         {
 
-        }
-
-        void Atualizar()
-        {
-
-        }
-
-        void ApresentarTodos()
-        {
-
+            //foreach (Student student in subscribers.Values)
+            //{
+            //    Console.WriteLine($"{student.Matricula} - {student.Nome}");
+            //}
         }
     }
 }
